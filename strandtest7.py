@@ -7,6 +7,8 @@
 # and color of LEDs, it's reasonably safe to power a couple meters off
 # USB.  DON'T try that with other code!
 
+# This code has one LED that runs through the strip and changes colors (through fading) and all the other leds fading through all colors.
+
 import time
 from dotstar import Adafruit_DotStar
 
