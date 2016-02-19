@@ -45,7 +45,7 @@ while True:                              # Loop forever
 	head += 1                     # Advance head position
 	if(head >= numpixels):           # Off end of strip?
 		head    = 0              # Reset to start
-		color >>= 1              # Red->green->blue->black
+		color >>= 1              # color sequence
 		if(color == 0): color = 0xFF4000 # If black, reset to red
 
 	tail += 1                       # Advance tail position
